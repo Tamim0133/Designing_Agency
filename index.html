@@ -11,9 +11,332 @@
     <link rel="stylesheet" href="style.css" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon" />
+    <!-- My Font Awesome  -->
+    <script
+      src="https://kit.fontawesome.com/bcb7dc0129.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- My animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
-    <p class="text-info mt-5 ps-5">Hi I am Tamim</p>
+    <header>
+      <!-- Making a Navigation Bar -->
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container-fluid fixed-top bg-info rounded-1">
+          <div>
+            <a class="navbar-brand" href="#">
+              <img src="favicon.jpg" alt="" width="50" height="44" />
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-lg-auto me-5">
+              <li class="nav-item pe-lg-3">
+                <a
+                  class="nav-link active text-white fancy-link"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item pe-lg-3">
+                <a class="nav-link text-white fancy-link" href="#services"
+                  >Our Services</a
+                >
+              </li>
+              <li class="nav-item pe-lg-3">
+                <a class="nav-link text-white fancy-link" href="#our-portfolio"
+                  >Our Portfolio</a
+                >
+              </li>
+              <li class="nav-item pe-lg-3">
+                <a class="nav-link text-white fancy-link" href="#our-team"
+                  >Our Team</a
+                >
+              </li>
+              <li class="nav-item pe-lg-3">
+                <a
+                  class="nav-link text-white fancy-link"
+                  href="#contact-us"
+                  tabindex="-1"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="container my-5 d-flex">
+        <!-- Header article  -->
+        <div>
+          <article>
+            <p class="text-primary">--Creative Agency</p>
+            <h1 class="fs-1 fw-bold animate__animated animate__backInLeft">
+              Providing Premium <br />
+              Quality Websites <br />
+              for A Decade
+            </h1>
+            <br />
+
+            <p class="animate__bounceInUp animate__animated animate__delay-1s">
+              We craft premium digital work for web, mobile and experiential
+              with creative agencies and global brands alike – putting passion,
+              pride and plenty of elbow grease into everything we do..
+            </p>
+            <p
+              class="
+                text-secondary
+                mt-5
+                pt-3
+                animate__bounceInRight animate__animated animate__delay-2s
+              "
+            >
+              <span>Web Design</span>
+              <span class="ms-4">Mobile Design</span>
+              <span class="ms-4">UI/UX Design</span>
+            </p>
+          </article>
+        </div>
+        <div>
+          <img
+            class="
+              ps-lg-5
+              pt-lg-5
+              animate__bounceInUp animate__animated animate__delay-3s
+            "
+            src="images/backgrounds/background2.png"
+            width="600"
+            height="400"
+            alt=""
+          />
+        </div>
+      </section>
+      <hr class="container bg-primary" />
+    </header>
+    <main class="container">
+      <section class="my-5 py-5">
+        <div>
+          <h3 id="services" class="fw-bold">
+            Providing <br />
+            Awesome Services
+          </h3>
+        </div>
+        <div class="topics d-flex mt-5">
+          <div class="web ps-3">
+            <i
+              class="far fa-window-restore bg-info p-2 rounded-3 fs-3 my-5"
+            ></i>
+            <h3>
+              Web <br />
+              Design
+            </h3>
+            <p>
+              We craft stunning and amazing web UI, using a well drrafted UX to
+              fit your product.
+            </p>
+          </div>
+          <div class="graphics ps-3 ms-5">
+            <i class="fas fa-pen-nib bg-info p-2 rounded-3 fs-3 my-5"></i>
+            <h3>
+              Graphics <br />
+              Design
+            </h3>
+            <p>
+              Amazing flyers, social media posts and brand representations that
+              would make your brand stand out.
+            </p>
+          </div>
+          <div class="mobile ps-3 ms-5">
+            <i class="fas fa-mobile-alt bg-info p-2 rounded-3 fs-3 my-5"></i>
+            <h3>
+              Mobile <br />
+              Design
+            </h3>
+            <p>
+              With well written codes, we build amazing apps for all platforms,
+              mobile and web apps in general.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section></section>
+      <section>
+        <div id="our-portfolio">
+          <div><h4 class="fw-bold">Some of Our Works</h4></div>
+          <div class="border-3 rounded pt-lg-5 €">
+            <img
+              class="image_zoom"
+              src="images/webs/web4.jpg"
+              width="500px"
+              class="rounded-3"
+              alt=""
+            />
+          </div>
+          <div class="border-3 rounded pt-lg-5 €">
+            <img
+              class="image_zoom"
+              src="images/webs/web2.png"
+              width="500px"
+              class="rounded-3"
+              alt=""
+            />
+          </div>
+          <div class="border-3 rounded pt-lg-5 €">
+            <img
+              class="image_zoom"
+              src="images/webs/web3.jpg"
+              width="500px"
+              class="rounded-3"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="my-5 mx-5 p-lg-2 border-5 rounded bg-info text-center">
+          <a
+            target="_blank"
+            href="https://github.com/Tamim0133"
+            class="text-decoration-none text-white"
+            ><h3>View More</h3></a
+          >
+        </div>
+      </section>
+      <section id="our-team" class="py-5">
+        <h2 class="fw-bold">Our Proefficient Team-Members</h2>
+        <div class="row py-5">
+          <div class="col-lg-3 text-center">
+            <img
+              src="images/persons/person1.png"
+              class="rounded-circle"
+              width="250px"
+              alt=""
+            />
+            <h3 class="pt-4">John Cena</h3>
+            <p>Web Designer</p>
+            <div>
+              <i
+                class="bg-info text-white rounded-3 fab fa-facebook fs-3 p-1"
+              ></i>
+              <i
+                class="bg-info text-white rounded-3 fab fa-twitter fs-3 p-1"
+              ></i>
+              <i
+                class="bg-info text-white rounded-3 fab fa-instagram fs-3 p-1"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 ms-5 ps-5 text-center">
+            <img
+              src="images/persons/person2.png"
+              width="250px"
+              class="rounded-circle"
+              alt=""
+            />
+            <h3 class="pt-4">Tom Holan</h3>
+            <p>Mobile Designer</p>
+            <div class="pt-2">
+              <i
+                class="bg-info text-white rounded-3 fab fa-facebook fs-3 p-1"
+              ></i>
+              <i
+                class="bg-info text-white rounded-3 fab fa-twitter fs-3 p-1"
+              ></i>
+              <i
+                class="bg-info text-white rounded-3 fab fa-instagram fs-3 p-1"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 ms-5 ps-5 text-center">
+            <img
+              src="images/persons/person3.png"
+              width="250px"
+              class="rounded-circle"
+              alt=""
+            />
+            <h3 class="pt-3">Mila Kunis</h3>
+            <p>Content Creator</p>
+            <div>
+              <i
+                class="bg-info text-white rounded-3 fab fa-facebook fs-3 p-1"
+              ></i>
+              <i
+                class="bg-info text-white rounded-3 fab fa-twitter fs-3 p-1"
+              ></i>
+              <i
+                class="bg-info text-white rounded-3 fab fa-instagram fs-3 p-1"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-5">
+        <h4>
+          We have been Successfully providing servieces to these companies :
+        </h4>
+        <div
+          class="my-5 d-flex justify-content-evenly align-items-center bg-white"
+        >
+          <div><img src="images/icon/icon1.png" width="100px" alt="" /></div>
+          <div><img src="images/icon/icon2.png" width="100px" alt="" /></div>
+          <div><img src="images/icon/icon3.png" width="100px" alt="" /></div>
+          <div><img src="images/icon/icon4.jpg" width="100px" alt="" /></div>
+          <div><img src="images/icon/icon5.jpg" width="100px" alt="" /></div>
+        </div>
+      </section>
+      <section class="py-5" id="contact-us">
+        <h2 class="fw-bold">Contact Us</h2>
+        <div class="row py-5">
+          <div class="col-lg-5 mt-3">
+            <h3>Let us handle your project, professionally.</h3>
+            <br /><br />
+            <p>
+              With well written codes, we build amazing apps for all platforms,
+              mobile and web apps in general.
+            </p>
+          </div>
+          <div class="col-lg-6 ps-lg-5 rounded-3 p-1">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder=" Enter Your Email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Your Occupation</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Company/Office/Workshop"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <button class="btn btn-info text-center text-white">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="border bg-secondary pt-3">
+        <div class="text-center text-white">
+          <p>&copy;Copyright 2019, All rights reserved</p>
+        </div>
+      </div>
+    </footer>
 
     <!-- bootstrap Javascript File -->
     <script src="bootstrap.bundle.min.js"></script>
